@@ -1,0 +1,83 @@
+/* font */
+/*font-family: 'Caveat', cursive;*/
+
+* {
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    background: url(/assets/fotos/NrwQPa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Caveat', cursive !important;
+    min-height: 100vh;
+}
+
+textarea {
+    background: rgb(255, 187, 0);
+    font-size: 1.5rem;
+    border: none;
+    overflow: auto;
+    outline: none;    
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+#primeiradiv h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.view_notes {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#newnote {
+    background-color:lightcoral;
+    display:inline-block;
+    top:10px;
+    left:10px;
+    width: 10rem;
+    height: 2.5rem;    
+    font-size: 1.5rem;    
+    
+    border-radius: 5px;
+}
+
+.sticky-header {
+    height: 1.7rem;
+    width: 221px;
+    background-color: rgb(148, 110, 4);
+}
+
+.sticky-title {
+    border-top: 0.1px solid rgb(187, 140, 10);
+    border-bottom: 0.1px solid rgb(187, 140, 10);
+}
+
+.sticky-note { 
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    border-radius: 3px;    
+    cursor: pointer;
+    background: rgb(255, 187, 0);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.delete-button {    
+    padding: 10px;
+    right:5px;
+    top:5px;    
+    position: absolute;
+    background-image: url('/assets/fotos/cancel.png');
+    background-color:transparent;    
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    border: none;
+    cursor: pointer;
+}
+
