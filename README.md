@@ -1,4 +1,4 @@
-# Calculator
+# Sticky notes
 
 ![](sticky-note.gif)
 
