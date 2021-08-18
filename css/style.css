@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(/assets/fotos/NrwQPa.png);
+    background-image: url("/assets/fotos/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Caveat', cursive !important;
