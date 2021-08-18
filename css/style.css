@@ -72,7 +72,7 @@ textarea {
     right:5px;
     top:5px;    
     position: absolute;
-    background-image: url('/assets/fotos/cancel.png');
+    background-image: url('../assets/fotos/cancel.png');
     background-color:transparent;    
     background-repeat:no-repeat;
     background-position:center;
